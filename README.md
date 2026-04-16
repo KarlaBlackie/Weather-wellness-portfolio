@@ -2,13 +2,18 @@
 ### Proyecto Final - Módulo de consolidación (Frontend Bootcamp)
 
 
-¡Bienvenido! Esta es una **SPA(Single page application) desarrollada con Vue 3**, enfocada en  proporcionar información climática en tiempo real combinada con mensajes de bienestar emocional y estadísticas avanzadas.
-Esta versión integra un sistema de autenticación, gestión de estado global con **Vuex**, rutas protegidas y una profunda lógica de datos metereológicos.
+¡Bienvenido! Esta es una **SPA(Single page application) desarrollada con Vue 3**, enfocada en  proporcionar información climática 
+en tiempo real combinada con mensajes de bienestar emocional y estadísticas avanzadas.
+Esta versión integra un sistema de autenticación, gestión de estado global con **Vuex**, rutas protegidas y una profunda lógica de
+ datos metereológicos.
 
 ## Sobre la autora: Tecnología con propósito
-Soy **Karla Jara Mena**, profesora de Inglés y desarrolladora Frontend en formación. Mi visión es unir la precisión del código con la empatía de la enseñanza.
+Soy **Karla Jara Mena**, profesora de Inglés y desarrolladora Frontend en formación. Mi visión es unir la precisión del código con
+ la empatía de la enseñanza.
 
-Como fundadora del Canal **"La Manada del Corazón"**, dedico parte de mi tiempo en promover la adopción de perritos sin hogar, además del bienestar de mi manada(5,de ellos 4 rescatados). Por ello, esta app no solo entrega datos, sino que busca generar un impacto positivo en el ánimo y 
+Como fundadora del Canal **"La Manada del Corazón"**, dedico parte de mi tiempo en promover la adopción de perritos sin hogar, 
+además del bienestar de mi manada(5,de ellos 4 rescatados). Por ello, esta app no solo entrega datos, sino que busca generar un 
+impacto positivo en el ánimo y 
 organización diaria de quienes la usan.
 
 # Características principales:
@@ -42,9 +47,12 @@ organización diaria de quienes la usan.
 
 # Autenticación y funcionalidades clave
 
-1. **Persistencia y Vuex:** Al iniciar sesión, se activa el estado `isAuthenticated`. El nombre de usuario se mantiene visible para personalizar los mensajes de bienestar.
-2. **Favoritos:** el usuario puede marcar ciudades con un corazón. Esta información se guarda en el store de vuex y se refleja instantáneamente en la vista favoritos.
-3. **Seguridad:** El router.beforeEach protege la ruta de favoritos; si intentas acceder sin loguearte, la app te redirige al Login.
+1. **Persistencia y Vuex:** Al iniciar sesión, se activa el estado `isAuthenticated`. El nombre de usuario se mantiene visible
+ para personalizar los mensajes de bienestar.
+2. **Favoritos:** el usuario puede marcar ciudades con un corazón. Esta información se guarda en el store de vuex y se refleja
+ instantáneamente en la vista favoritos.
+3. **Seguridad:** El router.beforeEach protege la ruta de favoritos; si intentas acceder sin loguearte, la app te redirige al
+ Login.
 4.**Lógica climática:** Implementación de conversores dinámicos de temperatura (Celsius/Fahrenheit) mediante propiedades computadas.
 5.**Consejos de bienestar:**Cada ciudad seleccionada muestra un mensaje optimista para motivar tu jornada.
 
@@ -53,17 +61,15 @@ organización diaria de quienes la usan.
 # Instalación y ejecución
 Sigue estos pasos para ejecutar el proyecto localmente:
 1.Clonar el repositorio:
-```bash
+
 git clone https://github.com/KarlaBlackie/Weather-wellness-portfolio
-```
 
 2.Entrar a la carpeta del proyecto
-bash
+
 cd weather-frontend-m8
 
-
 3.Instalar dependencias
-bash
+
 npm install
 
 4.Ejecutar el servidor de desarrollo:
