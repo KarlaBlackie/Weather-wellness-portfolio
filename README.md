@@ -62,18 +62,27 @@ organización diaria de quienes la usan.
 Sigue estos pasos para ejecutar el proyecto localmente:
 1.Clonar el repositorio:
 
+```bash
 git clone https://github.com/KarlaBlackie/Weather-wellness-portfolio
+```
 
 2.Entrar a la carpeta del proyecto
 
+```bash
 cd weather-frontend-m8
+```
 
 3.Instalar dependencias
 
+```bash
 npm install
+```
 
 4.Ejecutar el servidor de desarrollo:
+
+```bash
 npm run dev
+```
 
 Nota sobre API: esta aplicación utiliza la API pública de Open-Meteo, por lo que no requiere configuración de claves de API externas en un archivo .env.
 
